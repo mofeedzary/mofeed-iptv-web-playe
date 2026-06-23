@@ -437,7 +437,8 @@ async function createServer() {
     });
     app.use(vite.middlewares);
   } else {
-    app.use(express.static(path.resolve(__dirname, 'dist')));
+    // تعديل هنا ليتوافق مع وضع الملف داخل dist بعد البناء
+    app.use(express.static(__dirname));
   }
 
   // --- Fallback View routing (Serves the actual SPA App) ---
@@ -449,7 +450,8 @@ async function createServer() {
         template = fs.readFileSync(path.resolve(__dirname, 'index.html'), 'utf-8');
         template = await vite.transformIndexHtml(url, template);
       } else {
-        template = fs.readFileSync(path.resolve(__dirname, 'dist/index.html'), 'utf-8');
+        // تعديل هنا ليقرأ الـ index.html المتواجد بجانب ملف server.js الحالي في مجلد dist
+        template = fs.readFileSync(path.resolve(__dirname, 'index.html'), 'utf-8');
       }
       res.status(200).set({ 'Content-Type': 'text/html' }).end(template);
     } catch (e) {
