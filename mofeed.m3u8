@@ -1,0 +1,22 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="sansat_live" tvg-name="قناة تجريبية Sansat" tvg-logo="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=250&auto=format&fit=crop" group-title="بث تجريبي خاص",قناة تجريبية Sansat
+http://sansatplus.net:88/live/ZATAYMAGUY/ZVV8CICHJQ/2392143.ts
+
+#EXTINF:-1 tvg-id="503267" tvg-name="العربية الحدث" tvg-logo="https://images.unsplash.com/photo-1588681664899-f142ff22fa1b?w=250&auto=format&fit=crop" group-title="الأخبار",العربية الحدث
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4
+
+#EXTINF:-1 tvg-id="503268" tvg-name="الجزيرة الإخبارية" tvg-logo="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=250&auto=format&fit=crop" group-title="الأخبار",الجزيرة الإخبارية
+https://content.jwplatform.com/manifests/vM74E4v9.m3u8
+
+#EXTINF:-1 tvg-id="522301" tvg-name="قناة القرآن الكريم السعودية" tvg-logo="https://images.unsplash.com/photo-1542838132-92c53300491e?w=250&auto=format&fit=crop" group-title="إسلاميات",قناة القرآن الكريم السعودية
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4
+
+#EXTINF:-1 tvg-id="533802" tvg-name="قناة الوثائقية" tvg-logo="https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=250&auto=format&fit=crop" group-title="وثائقي",قناة الوثائقية
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4
+
+#EXTINF:-1 tvg-id="544903" tvg-name="سينما هوليوود" tvg-logo="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=250&auto=format&fit=crop" group-title="أفلام ومسلسلات",سينما هوليوود
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4
+
+#EXTINF:-1 tvg-id="555104" tvg-name="ماجد للأطفال" tvg-logo="https://images.unsplash.com/photo-1534447677768-be436bb09401?w=250&auto=format&fit=crop" group-title="أطفال",ماجد للأطفال
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4
+
